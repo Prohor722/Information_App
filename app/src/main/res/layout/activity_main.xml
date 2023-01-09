@@ -5,10 +5,33 @@
     android:id="@+id/weight"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/title_text"
-        style="@style/title_style" />
+        style="@style/title_style"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/img"
+        app:srcCompat="@drawable/kotlin" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="401dp">
+
+        <TextView
+            style="@style/para"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="250dp"
+            tools:layout_editor_absoluteY="350dp" />
+    </ScrollView>
 
 </LinearLayout>

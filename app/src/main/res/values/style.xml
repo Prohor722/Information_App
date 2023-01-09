@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="title_style">
-        <item name="android:layout_weight">1</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/title_mergin</item>
@@ -12,5 +11,22 @@
         <item name="android:textColorLink">#D8D8D8</item>
         <item name="android:textSize">@dimen/title_size</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="img">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:contentDescription">Kotlin Logo</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="para">
+        <item name="android:layout_height">200dp</item>
+        <item name="android:text">@string/longText</item>
+        <item name="android:layout_marginStart">@dimen/title_mergin</item>
+        <item name="android:layout_marginEnd">@dimen/title_mergin</item>
+<!--        <item name="android:layout_marginBottom">300dp</item>-->
+        <item name="android:paddingBottom">40dp</item>
+        <item name="android:layout_marginTop">@dimen/title_mergin</item>
     </style>
 </resources>
